@@ -36,3 +36,8 @@ yarn build:ios
 ## Features
 
 - CSS Module(css, less, scss) with CSS Media queries and viewport units support by [react-native-css-modules](https://github.com/kristerkari/react-native-css-modules)
+
+
+## Notes
+
+- Path alias name need to start with `@`, e.g. `@component`, otherwise it would not work.
