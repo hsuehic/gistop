@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
-import { BlueText } from 'component/BlueText';
-import { GreenText } from 'component/GreenText';
+import { BlueText } from '@component/BlueText';
+import { GreenText } from '@component/GreenText';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello world.</Text>
+      <Text>Hello world!</Text>
       <BlueText />
       <GreenText />
     </SafeAreaView>

@@ -7,9 +7,9 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "baseUrl": "src",
+    "baseUrl": "./",
     "paths": {
-      "component/*": ["component/*"],
+      "@component/*": ["./src/component/*"],
     }
   },
 }

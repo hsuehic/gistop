@@ -1,3 +1,4 @@
+const path = require('path');
 const { getDefaultConfig } = require('metro-config');
 
 module.exports = (async () => {
@@ -9,7 +10,7 @@ module.exports = (async () => {
       babelTransformerPath: require.resolve('./transformer.js'),
     },
     resolver: {
-      sourceExts: [...sourceExts, 'less', 'scss', 'sass'],
+      sourceExts: [...sourceExts, 'less', 'scss', 'sass']
     },
   };
 })();
