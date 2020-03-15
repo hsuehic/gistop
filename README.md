@@ -6,12 +6,16 @@ A repo for Application Prototypes.
 - Install cli tool
 ```bash
 yarn global add expo
+yarn global add react-devtools
+// or 
+brew update && brew cask install react-native-debugger
 ```
 
 - start dev
 ```bash
 yarn ios
 ```
+[react-devtools](https://www.npmjs.com/package/react-devtools)
 
 - build app for web
 ```bash
