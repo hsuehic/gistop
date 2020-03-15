@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
-import { BlueText } from './src/component/BlueText';
-import { GreenText } from './src/component/GreenText';
+import { BlueText } from 'component/BlueText';
+import { GreenText } from 'component/GreenText';
 
 export default function App() {
   return (

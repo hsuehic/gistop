@@ -5,6 +5,12 @@ module.exports = function(api) {
     plugins: [
       'react-native-classname-to-dynamic-style',
       ['react-native-platform-specific-extensions', { extensions: ['less', 'scss', 'sass'] }],
+      ['module-resolver', {
+        'root': './src',
+        'alias': {
+          'component': './component',
+        }
+      }]
     ],
   };
 };
