@@ -6,10 +6,10 @@ module.exports = (async () => {
   } = await getDefaultConfig();
   return {
     transformer: {
-      babelTransformerPath: require.resolve('react-native-less-transformer'),
+      babelTransformerPath: require.resolve('./transformer.js'),
     },
     resolver: {
-      sourceExts: [...sourceExts, 'less'],
+      sourceExts: [...sourceExts, 'less', 'scss', 'sass'],
     },
   };
 })();

@@ -28,7 +28,7 @@
     },
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "ts", "tsx", "less"]
+      "sourceExts": ["js", "jsx", "ts", "tsx", "less", "scss", "sass"]
     }
   }
 }
